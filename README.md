@@ -1,4 +1,4 @@
-# Pose-Controlled Gaming and What It Can Do for Healthcare
+# Webcam Gait Analysis and Gesture Control
 
 Real-time body tracking that replaces keyboard input with full-body movement, demonstrated on Subway Surfers. The same architecture detects asymmetric gait patterns associated with neurological and musculoskeletal disorders.
 

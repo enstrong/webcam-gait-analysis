@@ -1,6 +1,8 @@
 # Webcam Gait Analysis and Gesture Control
 
-Real-time body tracking that replaces keyboard input with full-body movement, demonstrated on Subway Surfers. The same architecture detects asymmetric gait patterns associated with neurological and musculoskeletal disorders.
+Real-time body tracking from a standard webcam detects asymmetric gait patterns associated with neurological and musculoskeletal disorders. The same architecture turns full-body movement into keyboard input, demonstrated on Subway Surfers.
+
+![Webcam gait analysis demo showing pose tracking and gait classifications](assets/gait-analysis-demo.gif)
 
 YouTube demo: https://www.youtube.com/watch?v=6GBaegb5wKo
 
@@ -70,8 +72,8 @@ Both models were trained exclusively on one person's body. The gesture classifie
 
 ```bash
 # Clone the repository
-git clone https://github.com/enstrong/pose-controlled-gaming.git
-cd pose-controlled-gaming
+git clone https://github.com/enstrong/webcam-gait-analysis.git
+cd webcam-gait-analysis
 
 # Create environment and install dependencies
 conda create -n pose python=3.11 -y
